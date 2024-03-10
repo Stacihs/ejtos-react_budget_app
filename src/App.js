@@ -2,13 +2,9 @@ import React from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-//Code to import Budget.js
 import Budget from './components/Budget';
-
-// Add code to import the other components here under
 import Remaining from './components/Remaining';
 import ExpenseTotal from './components/ExpenseTotal';
-import ExpenseItem from './components/ExpenseList';
 import AllocationForm from './components/AllocationForm';
 import ExpenseList from './components/ExpenseList';
 
@@ -49,12 +45,6 @@ const App = () => {
                                     <ExpenseList />
                                 </div>
                         }         
-
-                        {
-                            // ExpenseItem component
-                        }       <div className='col-sm'>
-                                    <ExpenseItem />
-                                </div>
                     </div>
                     <div>
                         <h2 className='mt-3'> Change Allocation</h2>
