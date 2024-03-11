@@ -71,6 +71,7 @@ const AllocationForm = (props) => {
                     <button className="btn btn-primary" onClick={submitEvent} style={{ marginLeft: '2rem' }}>
                         Save
                     </button>
+                    
                 </div>
             </div>
 
